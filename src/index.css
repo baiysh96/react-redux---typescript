@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ol {
+  padding-left: 10px;
+}
+li {
+  padding-left: 0;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto ;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ input {
+   margin-top: 50px;
+   width: 170px;
+   border: none;
+   padding: 4px 30px;
+   border-radius: 4px;
+   background: #fff;
+ }
+.mt {
+    margin-top: 30px;
+    position: relative;
+}
+ .relative {
+     position: relative;
+ }
+ .search-icon {
+    position: absolute;
+     top: -15px;
+     right: 3px;
+     color: #999;
+ }
+ .p {
+   padding:0 30px;
+ }
+ .mb {
+   margin-bottom: 30px;
+ }
+ .cursor-p {
+     cursor: pointer;
+ }
+ .purple {
+     background-color: rgba(128, 0, 128, 0.4);
+ }
