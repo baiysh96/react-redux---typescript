@@ -4,9 +4,12 @@ import { AppUseDispatch, useAppSelector } from '../../hooks/redux'
 import { getTitle, getTodos, sortedItem } from '../../redux/slices/todoSlice'
 import DragDown from '../../components/DragDown'
 import Input from '../../components/Input'
+import Spinner from '../../components/Spinner'
 
 export default function Todos() {
-  const { todos, title, sort } = useAppSelector((state) => state.todoReducer)
+  const { todos, title, sort, isLoading, error } = useAppSelector(
+    (state) => state.todoReducer,
+  )
   const dispatch = AppUseDispatch()
   useEffect(() => {
     dispatch(getTodos())
@@ -36,13 +39,15 @@ export default function Todos() {
   }, [todos, sort, title])
   return (
     <div className="container">
-      <h2 className="font-bold mt-2 text-2xl text-center">Todos</h2>
+      <h2 className="font-bold mt-2 text-3xl text-center">Todos</h2>
       <div className="row">
         <div className=" float-left  right row s12 mt">
           <DragDown action={handleSort} />
         </div>
         <Input search={search} title={title} />
       </div>
+      {isLoading && <Spinner />}
+      {error && <div>error.message</div>}
       {dataList.map((data) => (
         <TodoCard key={data.id} data={data} />
       ))}

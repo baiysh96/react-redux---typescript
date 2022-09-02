@@ -5,44 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62f4ff20-fe6c-4bf1-a4ea-184e94bfcddd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DragDown/DragDown.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DragDown/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Input/Input.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Input/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TodoCard/TodoCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TodoCard/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UserCard/UserCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UserCard/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/redux.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/IUser.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Todos/Todos.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Todos/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Users/Users.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Users/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/slices/todoSlice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/slices/userSlice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NotFound/NotFound.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NotFound/NotFound.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NotFound/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Spinner/Spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Spinner/Spinner.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Spinner/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Todos/Todos.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Todos/Todos.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Users/Users.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Users/Users.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -72,24 +46,25 @@
     <option name="showMembers" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/baiyshdykanov/Desktop/typscript-app/src/components&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/baiyshdykanov/Desktop/typscript-app/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/baiyshdykanov/Desktop/typscript-app/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/baiyshdykanov/Desktop/typscript-app/src/components",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/baiyshdykanov/Desktop/typscript-app/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "/Users/baiyshdykanov/Desktop/typscript-app/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components" />
@@ -110,7 +85,7 @@
       <workItem from="1659999359976" duration="534000" />
       <workItem from="1661514370908" duration="30288000" />
       <workItem from="1661927984703" duration="23005000" />
-      <workItem from="1662119253925" duration="18108000" />
+      <workItem from="1662119253925" duration="22653000" />
     </task>
     <servers />
   </component>
@@ -125,7 +100,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/pages/Users/Users.tsx</url>
-          <line>23</line>
+          <line>26</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
